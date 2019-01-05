@@ -1,0 +1,590 @@
+*{
+	margin:0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.out{
+	width: 1350px;
+	height: 1063px;
+	background-color: #f8f7f6;
+}
+
+/*白色*/
+.white{
+	width: 1350px;
+	height: 170px;
+	background-color: white;
+}
+/*悬浮部分*/
+.waixuanfu{
+	width: 1350px;
+	height: 130px;
+	position: static;
+	float: left;
+	background-color:white;
+	z-index: 1;
+}
+.xuanfu{
+	width: 1178px;
+	height: 130px;
+	margin-left: 85px;
+	position: absolute;
+	float: left;
+}
+.toptop{
+	width: 1178px;
+	height: 40px;
+}
+.top-q{
+	display: inline-block;
+	width:19px ;
+	height:19px ;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.zero{
+	padding-top: 5px;
+	display: inline-block;
+	float: right;
+	color: #ff4d04;
+}
+
+/*search*/
+.search{
+	width: 1178px;
+	height: 90px;
+}
+.zuoshang{
+	width: 141px;
+	height: 62px;
+	float: left;
+}
+.you{
+	width: 620px;
+	height: 70px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.youyou{
+	width: 270px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+}
+.hezi{
+	width: 85px;
+	height: 40px;
+	float: left;
+	border:1px solid #666560;
+	overflow: hidden;
+}
+.lan{
+	width: 500px;
+	border:2px solid #ff4d04;
+	height: 35px;
+	float: left;
+}
+.anniu{
+	width: 85px;
+	height: 39px;
+	float: left;
+	background-color: #ff4d04;
+	border:2px solid #ff4d04;
+	color: white;
+	font-size: 16px;
+}
+.fen{
+	width: 585px;
+	height: 20px;
+	float: left;
+}
+.contact{
+	width: 650px;
+	height: 31px;
+	float: right;
+}
+.search a{
+	color: #666560;
+	font-size: 12px;
+	margin-left: 5px;
+}
+.toptop a{
+	color: #666560;
+	font-size: 12px;
+	margin-left: 5px;
+}
+.xian{
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+}
+.fen a{
+	float: left;
+	display: inline-block;
+	margin-top: 5px;
+}
+.phone{
+	font-size: 8px;
+	color: #666560;
+	margin-top: 27px;
+}
+.phonee{
+	color: white;
+	float: left;
+	width: 55px;
+	height: 30px;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.heiii{
+	background-color: #ff4d04;
+}
+.teshu{
+	display: inline-block;
+	margin-top: 10px;
+	float: left;
+	width: 22px;
+	height: 22px;
+
+}
+.beijing{
+	width: 31px;
+	height: 21px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+/*导航栏*/
+.daohang{
+	width: 970px;
+	height: 40px;
+	margin-left: 85px;
+	float: left;
+}
+.daohang a{
+	width: 80px;
+	height: 30px;
+	font-size: 18px;
+	display: inline-block;
+	float: left;
+	color: black;
+	margin-top: 10px;
+}
+.daohang a:hover{
+	color: red;
+}
+.daohang ul{
+	width: 920px;
+	height: 40px;
+}
+.daohang li{
+	width: 100px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+}
+.dsds a:hover{
+	color: black;
+}
+.ci{
+	background-color:#ff4d04;
+}
+/*灰色*/
+.grey{
+	width: 1350px;
+	height: 900px;
+	border-top: 1px solid #ff4d04;
+}
+/*核心部分*/
+.hexin{
+	width: 1180px;
+	height: 550px;
+	margin-left: 85px;
+}
+/*左边*/
+.all{
+	width: 170px;
+	height: 550px;
+	float: left;
+}
+.hei{
+	width: 25px;
+	height: 420px;
+	float: left;
+	background-color: #4c4c4a;
+	color: red;
+	border-bottom: 1px solid #ff4d04;
+}
+.most{
+	width: 145px;
+	height: 420px;
+	float: left;
+	border-bottom: 1px solid #ff4d04;
+}
+.xia{
+	width: 170px;
+	height: 125px;
+	float: left;
+	background-color: white;
+}
+/*中间轮播*/
+.nine{
+	width: 800px;
+	height: 550px;
+	float: left;
+}
+.box{
+	width: 800px;
+	height: 361px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+#left{
+	display: inline-block;
+	background-color: white;
+	margin-top: 150px;
+	width: 24px;
+	height: 62px;
+}
+#right{
+	display: inline-block;
+	background-color: white;
+	margin-top: 150px;
+	width: 24px;
+	height: 62px;
+	float: right;
+}
+
+.list{
+	width: 80px;
+	height: 120px;
+	float: left;
+	display: inline-block;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+.com{
+	margin-top: 15px;
+}
+.sa{
+	width:170px ;
+	height:30px ;
+	margin-top: 10px;
+}
+.co{
+	color: #666560;
+}
+.nine>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+.nav{
+	position: absolute;
+	left:330px;
+	bottom: 20px;
+	margin:0 auto;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: #ff4d04;
+	margin:0 auto;
+}
+.world{
+	display: block;
+	font-size: 12px;
+	color: #666560;
+	margin:0 auto;
+	height: 20px;
+	margin-top: 8px;
+}
+.tag{
+	margin:0 auto;
+	width: 790px;
+	height:52px;
+}
+/*右侧*/
+.youce{
+	width: 210px;
+	height: 550px;
+	background-color: white;
+	float: left;
+}
+.bangbang{
+	width: 210px;
+	height: 44px;
+	border-bottom: 1px solid #4c4c4a;
+}.bangbang a{
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+	color: #ff4d04;
+	margin-top: 10px;
+}
+.bangbang span{
+	color: #ff4d04;
+}
+.com{
+	display: block;
+	width:30px ;
+	height: 20px;
+	float: left;
+	color: black;
+	font-size: 13px;
+	margin-left: 5px;
+}
+.num{
+	width: 10px;
+	height: 10px;
+	margin:0 auto;
+}
+.laba{
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.gundong{
+	width: 210px;
+	height: 600px;
+	top: 0px;
+	position: absolute;
+}
+.waigundong{
+	width: 210px;
+	height: 320px;
+	overflow: hidden;
+	position: relative;
+}
+.gundong a{
+	display: inline-block;
+	width: 210px;
+	height: 30px;
+	font-size: 12px;
+	color: #ff4d04;
+}
+.nuber{
+	width: 125px;
+	height: 25px;
+	margin-left: 35px;
+	margin-top: 5px;
+}
+.xuanze{
+	width: 60px;
+	height: 20px;
+	float: left;
+	margin-top: 5px;
+}
+.heise{
+	font-size: 14px;
+	margin-top: 5px;
+}
+.chengse{
+	color: #ff4d04;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.qian{
+	width:15px;
+	height: 20px;
+	float: left;
+	color: #ff4d04;
+	margin-top: 5px;
+}
+.butt{
+	width: 177px;
+	height: 26px;
+	background-color: #ff4d04;
+	color: white;
+	float: left;
+	margin-top: 5px;
+	border-radius:10px;
+	border-color: #ff4d04;
+}
+.slider{
+	width: 6472px;
+	position: absolute;
+	left: -809px;
+	
+}
+.slide{
+	width: 809px;
+	overflow: hidden;
+	float: left;
+}
+.four{
+	width: 815px;
+	height: 184px;
+	float: left;
+}
+
+
+/*重复*/
+.chongfu{
+	width: 1180px;
+	height: 350px;
+	margin-left: 85px;
+}
+
+/*列表*/
+.liebiao{
+	width: 1180px;
+	height: 170px;
+}
+.liebiao li{
+	color: #666560;
+	margin-top: 5px;
+}
+.liebiao p{
+	font-size: 18px;
+}
+/*最下面*/
+.latest{
+	width: 1180px;
+	height: 170px;
+}
+.latest ul{
+	width: 700px;
+	height: 25px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+.latest li{
+	line-height: 15px;
+	text-align: center;
+	display: inline;
+	margin-right:  13px;
+	font-size: 13px;
+	color: #666560;
+	border-right: 1px solid #666560;
+}
+.shuxian{
+	width: 670px;
+	height: 40px;
+}
+.ppp{
+	width: 1000px;
+	height:75px ;
+	margin:0 auto;
+}
+
+/*固定*/
+.guding{
+	width: 130px;
+	height: 800px;
+	right: -95px;
+	position: fixed;
+	top:100px;
+}
+.bang{
+	width: 140px;
+	height: 100px;
+	background-color: #ff9260;
+	margin-top: 42px;
+	right: -97px;
+	position: fixed;
+}
+.youhui{
+	width: 140px;
+	height: 140px;
+	background-color: #ff9260;
+	margin-top: 142px;
+	right: -97px;
+	position: fixed;
+}
+.shouji{
+	width: 140px;
+	height: 145px;
+	background-color: #ff9260;
+	margin-top: 282px;
+	right: -97px;
+	position: fixed;
+}
+.gouwuche{
+	width: 140px;
+	height: 140px;
+	background-color: #ff4d04;
+	margin-top: 422px;
+	right: -97px;
+	position: fixed;
+}
+.serwei{
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+.gouwu{
+	width: 5px;
+	height: 20px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.gouwutupian{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.huafei{
+	width: 200px;
+	height: 100px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.erwei{
+	width: 90px;
+	height: 90px;
+	margin-left: 10px;
+}
+.weidenglu{
+	width: 55px;
+	height: 25px;
+	margin-left: 10px;
+	display: inline-block;
+	float: left;
+	margin-top: 25px;
+	font-size: 14px;
+}
+.denglu{
+	width: 45px;
+	height: 25px;
+	margin-left: 10px;
+	display: inline-block;
+	float: left;
+	margin-top: 25px;
+	background-color: #ff9260;
+	border:1px solid white;
+	color: white;
+}
+.guding4{
+	display: inline-block;
+	float: left;
+}
+.guding1{
+	position: fixed;
+	top:140px;
+}
+.guding3{
+	position: fixed;
+	top:200px;
+}
