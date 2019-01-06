@@ -1,16 +1,4 @@
-/*window.onload = function(){
-	var cover = document.getElementById();
-	window.onscroll = function(){
-		var st = document.documentElement.scrolTOP ||document.body.scrollTop;
-		if(st>180){
-			cover.style.postion="fixed";
-		}
-		else{
-			cover.style.postion="static";
-		}
-	}
-}*/
-var white = document.getElementById("white");
+	var white = document.getElementById("white");
 	var green = document.getElementById("green");
 	var kuang = document.getElementById("ku");
 	var da=document.getElementsByClassName("da")[0];
@@ -20,7 +8,7 @@ var white = document.getElementById("white");
 	var zuoer=document.getElementsByClassName("zuoer")[0];
 	var kuang1 = document.getElementsByClassName("kuang1")[0];
 	var bus=document.getElementsByClassName("bus")[0];
-	var bus1=document.getElementsByClassName("bus")[1];
+	var bus1=document.getElementsByClassName("buy")[1];
 	var meng=document.getElementsByClassName("meng")[0];
 	var cuohao=document.getElementsByClassName("cuohao")[0];
 	var capacity1=document.getElementsByClassName("capacity")[0];
@@ -44,14 +32,14 @@ var white = document.getElementById("white");
 	capacity1.onclick=function(){
 		capacity1.className="hongkuang";
 		capacity2.className="capacity";
-		choose.innerHTML="150ml";
+		choose.innerHTML='"150ml"';
 		duigou1.style.display="block";
 		duigou2.style.display="none";
 	}
 	capacity2.onclick=function(){
 		capacity2.className="hongkuang";
 		capacity1.className="capacity";
-		choose.innerHTML="200ml";
+		choose.innerHTML='"200ml"';
 		duigou2.style.display="block";
 		duigou1.style.display="none";
 	}
